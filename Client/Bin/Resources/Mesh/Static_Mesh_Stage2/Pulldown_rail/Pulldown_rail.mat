@@ -1,0 +1,5 @@
+Diffuse=Pulldown_rail_diff
+Normal=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Specular=Pulldown_rail_spec
+Cube=T_AM_cubeMap_1_Tex
+Other[0]=M_ES_Phong_Opaque_INST_01_Flattened1

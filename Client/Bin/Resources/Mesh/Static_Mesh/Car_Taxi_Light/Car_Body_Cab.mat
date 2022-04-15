@@ -1,0 +1,6 @@
+Diffuse=Car_Body_Cab_Diff
+Normal=Car_Body_Grey_Norm
+Specular=Car_Body_Grey_Spec
+Cube=Roof_Night_Clear_Tex_noStar
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

@@ -1,0 +1,5 @@
+Diffuse=trash_can_plastic_diff
+Normal=trash_can_plastic_norm
+Specular=trash_can_plastic_spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

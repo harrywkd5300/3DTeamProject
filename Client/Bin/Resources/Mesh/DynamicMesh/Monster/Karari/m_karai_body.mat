@@ -1,0 +1,4 @@
+Diffuse=t_karai_body_d
+Normal=t_karai_body_n
+Specular=t_karai_body_s
+Other[0]=t_refMap_generic_01

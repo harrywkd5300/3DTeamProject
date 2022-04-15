@@ -1,0 +1,5 @@
+Diffuse=T_MC_compressor_01_D
+Normal=T_MC_compressor_01_N
+Specular=T_MC_compressor_01_S
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

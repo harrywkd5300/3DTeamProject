@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{a4ebe5c0-3b72-44eb-bd7f-216792d87c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainFrame">
+      <UniqueIdentifier>{db31329f-af9c-4ee5-8a9d-5df9a9c1d2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.MainView">
+      <UniqueIdentifier>{d83c1f67-e35c-413a-8438-04b29c52b1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.EditBox">
+      <UniqueIdentifier>{15a51b95-a8f4-4034-a975-d349809d5916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Defines">
+      <UniqueIdentifier>{91eea8a6-cb02-4c8d-87bd-2af32d60b4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.EditBox\EditSheet">
+      <UniqueIdentifier>{e0d995f6-8bad-4df2-84f8-fb44922fd904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Scene">
+      <UniqueIdentifier>{3472adc2-b55a-4533-9c5a-f510541b080b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject">
+      <UniqueIdentifier>{85b6d1db-c326-4898-a8eb-42ce38674e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\00.Object">
+      <UniqueIdentifier>{0a16fe3f-449a-4844-9480-d57fc2a634ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\01.Terrain">
+      <UniqueIdentifier>{24e5433c-a7bc-40c2-8d4b-1cc2a9180478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\02.Camera">
+      <UniqueIdentifier>{fd437d9e-daa7-4771-a587-c10c864692ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\03.LightMgr">
+      <UniqueIdentifier>{cc921daf-79d5-4643-8613-8fe1361deb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\04.BaseObject">
+      <UniqueIdentifier>{d335bf44-f77e-441d-9c99-4567b19c2517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.ColorDialog">
+      <UniqueIdentifier>{41e2e59c-26bd-44c6-b77d-91c0748ba2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Tool">
+      <UniqueIdentifier>{9e676c41-5bbc-4acc-83c7-16cb72e0ff4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Tool\ShaderTool">
+      <UniqueIdentifier>{d56a0156-96b1-49d3-8945-c0e187a8f123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Tool\LightTool">
+      <UniqueIdentifier>{10965ae9-12e7-4324-babf-0333a5a03e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Tool\Interaction">
+      <UniqueIdentifier>{fb8989ba-7e87-498d-b42a-75b78682fc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\05.Interaction_Character">
+      <UniqueIdentifier>{81c840c8-1cd5-4a81-807e-4b37eeebf9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\06.Equipment">
+      <UniqueIdentifier>{fb9e784e-5be6-43ad-b4c1-97e01468ad1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.GameObject\07.Player">
+      <UniqueIdentifier>{3bd2fded-57f1-41da-b9d8-4396c08473e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTool_KMH.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTool_KMHDoc.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTool_KMHView.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Defines.h">
+      <Filter>98.Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_ToolUse.h">
+      <Filter>05.GameObject\00.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain_ToolUse.h">
+      <Filter>05.GameObject\01.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera_UseTool.h">
+      <Filter>05.GameObject\02.Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Tool.h">
+      <Filter>03.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EditBox.h">
+      <Filter>02.EditBox</Filter>
+    </ClInclude>
+    <ClInclude Include="EditSheet.h">
+      <Filter>02.EditBox\EditSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderToolMainView.h">
+      <Filter>01.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMgr_UseTool.h">
+      <Filter>05.GameObject\03.LightMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Shader.h">
+      <Filter>04.Tool\ShaderTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Light.h">
+      <Filter>04.Tool\LightTool</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject_UseTool.h">
+      <Filter>05.GameObject\04.BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MyColor.h">
+      <Filter>06.ColorDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool_Interaction.h">
+      <Filter>04.Tool\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="Interaction_Character_UseTool.h">
+      <Filter>05.GameObject\05.Interaction_Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Sai_UseTool.h">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff_UseTool.h">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword_UseTool.h">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Knife_UseTool.h">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_UseTool.h">
+      <Filter>05.GameObject\07.Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderTool_KMH.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderTool_KMHDoc.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderTool_KMHView.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_ToolUse.cpp">
+      <Filter>05.GameObject\00.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain_ToolUse.cpp">
+      <Filter>05.GameObject\01.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera_UseTool.cpp">
+      <Filter>05.GameObject\02.Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Tool.cpp">
+      <Filter>03.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EditBox.cpp">
+      <Filter>02.EditBox</Filter>
+    </ClCompile>
+    <ClCompile Include="EditSheet.cpp">
+      <Filter>02.EditBox\EditSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderToolMainView.cpp">
+      <Filter>01.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMgr_UseTool.cpp">
+      <Filter>05.GameObject\03.LightMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Shader.cpp">
+      <Filter>04.Tool\ShaderTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Light.cpp">
+      <Filter>04.Tool\LightTool</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject_UseTool.cpp">
+      <Filter>05.GameObject\04.BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MyColor.cpp">
+      <Filter>06.ColorDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool_Interaction.cpp">
+      <Filter>04.Tool\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Interaction_Character_UseTool.cpp">
+      <Filter>05.GameObject\05.Interaction_Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Sai_UseTool.cpp">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff_UseTool.cpp">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword_UseTool.cpp">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Knife_UseTool.cpp">
+      <Filter>05.GameObject\06.Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_UseTool.cpp">
+      <Filter>05.GameObject\07.Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ShaderTool_KMH.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\ShaderTool_KMHDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShaderTool_KMH.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ShaderTool_KMH.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

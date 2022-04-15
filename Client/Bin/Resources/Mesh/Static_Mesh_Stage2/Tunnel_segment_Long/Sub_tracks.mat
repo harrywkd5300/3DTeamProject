@@ -1,0 +1,6 @@
+Diffuse=Sub_tracks_diff
+Normal=Sub_tracks_norm
+Specular=Sub_tracks_spec
+Cube=T_AM_cubeMap_1_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

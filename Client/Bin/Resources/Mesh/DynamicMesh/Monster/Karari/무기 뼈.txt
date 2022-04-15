@@ -1,0 +1,29 @@
+SaberStaff_Root
+
+
+
+//Karari  RHand
+	m_pTransformCom->Rotation_Z(90.f, 1.f);
+	m_pTransformCom->Rotation_X(90.f, 1.f);
+
+	_vec3 vPos = *m_pTransformCom->Get_Infomation(CTransform::INFO_POSITION);
+	vPos.x -= 12.f;
+	m_pTransformCom->Set_Infomation(CTransform::INFO_POSITION, &vPos);
+
+
+
+
+
+Lthumb01
+
+
+	//Karari  LHand
+	m_pTransformCom->Rotation_X(90.f, 1.f);
+	m_pTransformCom->Rotation_Y(30.f, 1.f);
+	m_pTransformCom->Rotation_Z(-5.f, 1.f);
+
+	_vec3 vPos = *m_pTransformCom->Get_Infomation(CTransform::INFO_POSITION);
+	vPos.x += 3.5f;
+	vPos.y -= 2.f;
+	vPos.z += 10.f;
+	m_pTransformCom->Set_Infomation(CTransform::INFO_POSITION, &vPos);

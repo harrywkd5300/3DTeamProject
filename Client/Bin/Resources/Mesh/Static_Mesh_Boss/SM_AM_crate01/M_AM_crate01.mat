@@ -1,0 +1,5 @@
+Diffuse=T_AM_crate01_D
+Normal=T_AM_crate01_N
+Specular=T_AM_crate01_M
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

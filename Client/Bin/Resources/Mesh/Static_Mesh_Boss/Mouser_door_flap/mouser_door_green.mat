@@ -1,0 +1,5 @@
+Diffuse=mouser_door_diff
+Normal=mouser_door_norm
+Specular=mouser_door_spec_green
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

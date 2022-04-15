@@ -1,0 +1,16 @@
+R_Sword1
+L_Sword1
+
+
+Ä®Áý
+SwordHit_01
+SwordHit_02
+
+
+
+m_pTransformCom->Rotation_X(90.f, 1.f);
+
+
+_vec3 vPos = *m_pTransformCom->Get_Infomation(CTransform::INFO_POSITION);
+vPos.z -= 10.f;
+m_pTransformCom->Set_Infomation(CTransform::INFO_POSITION, &vPos);

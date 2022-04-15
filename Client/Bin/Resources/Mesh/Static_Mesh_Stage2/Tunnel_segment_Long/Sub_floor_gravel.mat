@@ -1,0 +1,5 @@
+Diffuse=Sub_floor_gravel_diff
+Normal=Sub_floor_gravel_norm
+Specular=Sub_floor_gravel_spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

@@ -1,0 +1,8 @@
+R_Staff
+
+ºÀ °íÁ¤»À
+StaffJoint
+
+
+
+m_pTransformCom->Set_Infomation(CTransform::INFO_ANGLE,&_vec3(275,175,0));

@@ -1,0 +1,4 @@
+Diffuse=Sub_bench_diff
+Normal=Sub_bench_norm
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

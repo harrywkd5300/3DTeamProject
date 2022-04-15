@@ -1,0 +1,6 @@
+Diffuse=T_AM_pipes_1_D
+Normal=T_AM_pipes_1_N
+Specular=T_AM_pipes_1_S
+Cube=T_AM_cubeMap_1_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

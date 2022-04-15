@@ -1,0 +1,6 @@
+Diffuse=Dock_Plywood_1_Diff
+Normal=Dock_Plywood_1_Norm
+Specular=Dock_Plywood_1_Spec
+Cube=T_AM_cubeMap_1_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

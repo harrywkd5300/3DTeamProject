@@ -1,0 +1,6 @@
+Diffuse=WH_Window_3_Diff
+Normal=WH_Window_3_Norm
+Specular=WH_Window_3_Spec
+Cube=Roof_Day_Clear_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

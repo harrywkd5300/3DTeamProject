@@ -1,0 +1,5 @@
+Diffuse=Floor_Assphalt_2_Diff
+Normal=Floor_Assphalt_2_Norm
+Specular=Floor_Assphalt_2_Spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

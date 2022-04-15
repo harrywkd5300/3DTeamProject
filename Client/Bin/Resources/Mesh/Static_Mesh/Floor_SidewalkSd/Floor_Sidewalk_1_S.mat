@@ -1,0 +1,5 @@
+Diffuse=Floor_Sidewalk_1_Diff
+Normal=Floor_Sidewalk_1_Norm
+Specular=Floor_Sidewalk_1_Spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

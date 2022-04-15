@@ -1,0 +1,708 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#include ""res\\ShaderTool_KMH.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""l.KOR\\afxres.rc""      // 표준 구성 요소\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ShaderTool_KMH.ico"
+
+IDR_ShaderTool_KMHTYPE  ICON                    "res\\ShaderTool_KMHDoc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "새로 만들기(&N)\tCtrl+N",          ID_FILE_NEW
+        MENUITEM "열기(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "저장(&S)\tCtrl+S",              ID_FILE_SAVE
+        MENUITEM "다른 이름으로 저장(&A)...",           ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "최근에 사용한 파일",                  ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "끝내기(&X)",                     ID_APP_EXIT
+    END
+    POPUP "편집(&E)"
+    BEGIN
+        MENUITEM "실행 취소(&U)\tCtrl+Z",           ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "잘라내기(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "복사(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "붙여넣기(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+    POPUP "보기(&V)"
+    BEGIN
+        MENUITEM "도구 모음(&T)",                   ID_VIEW_TOOLBAR
+        MENUITEM "상태 표시줄(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM "분할(&P)",                      ID_WINDOW_SPLIT
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "ShaderTool_KMH 정보(&A)...",    ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ShaderTool_KMH 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "ShaderTool_KMH, 버전 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "확인",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_EDITBOX DIALOG 0, 0, 320, 200
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "MS Shell Dlg"
+BEGIN
+    LTEXT           "TODO: 이 대화 상자에 폼 컨트롤을 배치합니다.",IDC_STATIC,24,42,280,8
+END
+
+IDD_TOOL_SHADER DIALOGEX 0, 0, 309, 514
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ShaderTool"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "추가",IDC_BUTTON_SHADER_ADDVAR,86,0,37,15
+    EDITTEXT        IDC_EDIT_SHADER_VAR_NAME,34,1,50,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_SHADER_VARIABLE,251,14,58,91,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "쉐이더 변수 목록",IDC_STATIC,245,1,64,8
+    CTEXT           "변수명 :",IDC_STATIC,1,2,33,9
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT1,0,31,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT2,32,31,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT3,64,31,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT4,96,31,31,12,ES_AUTOHSCROLL
+    CTEXT           "변수타입 :",IDC_STATIC,1,16,33,9
+    COMBOBOX        IDC_COMBO_SHADER_VAR_TYPE,36,15,87,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "HDR",IDC_CHECK_SHADER_HDR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,109,29,10
+    CONTROL         "모션블러",IDC_CHECK_SHADER_MOTIONBLUR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,121,39,10
+    CONTROL         "DOF",IDC_CHECK_SHADER_DOF,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,132,29,10
+    CONTROL         "그림자",IDC_CHECK_SHADER_SHADOW,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,177,33,10
+    CONTROL         "SSAO",IDC_CHECK_SHADER_SSAO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,154,34,10
+    CONTROL         "외곽선 검출",IDC_CHECK_SHADER_EDGEDETECTION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,165,47,10
+    CONTROL         "빛",IDC_CHECK_SHADER_LIGHT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,143,22,10
+    LISTBOX         IDC_LIST_SHADER_RENDERTARGET,188,15,58,169,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "렌더타겟 목록",IDC_STATIC,190,2,47,8
+    LISTBOX         IDC_LIST_SHADER_SHADERLIST,133,15,52,122,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "쉐이더 목록",IDC_STATIC,135,4,47,8
+    PUSHBUTTON      "Load",IDC_BUTTON_SHADER_LOAD,133,165,51,27
+    PUSHBUTTON      "Save",IDC_BUTTON_SHADER_SAVE,133,138,51,27
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT5,0,44,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT6,32,44,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT7,64,44,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT8,96,44,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT9,0,57,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT10,32,57,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT11,64,57,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT12,96,57,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT13,0,67,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT14,32,67,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT15,64,67,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_VAR_FLOAT16,96,67,31,12,ES_AUTOHSCROLL
+    CONTROL         "Fog",IDC_CHECK_SHADER_FOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,188,27,10
+    LTEXT           "Select Num :",IDC_STATIC,1,82,42,8
+    EDITTEXT        IDC_EDIT_SHADER_SELECTVARNUM,43,81,28,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_SELECTVARMIN,95,81,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_SELECTVARMAX,95,96,30,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_SELECTNUMVALUE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,3,109,126,12
+    LTEXT           "Min :",IDC_STATIC,79,82,15,8
+    LTEXT           "Max :",IDC_STATIC,79,97,15,8
+    LTEXT           "Value :",IDC_STATIC,1,96,23,8
+    EDITTEXT        IDC_EDIT_SHADER_SELECTVARUE,25,95,41,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "변수 지우기",IDC_BUTTON_SHADER_DELETES_SHADERVAR,257,218,45,16
+    CONTROL         "Light Shaft",IDC_CHECK_SHADER_LIGHTSHAFT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,252,200,50,10
+    COMBOBOX        IDC_COMBO_STAGETYPE,3,145,68,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Stage Type",IDC_STATIC,3,133,68,8
+    PUSHBUTTON      "Modify",IDC_BUTTON_MODIFY_STAGESHADERDATA,77,145,36,13
+END
+
+IDD_TOOL_LIGHT DIALOGEX 0, 0, 312, 433
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "LightTool"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CTEXT           "빛 목록",IDC_STATIC,221,63,91,9
+    CTEXT           "빛 타입",IDC_STATIC,7,1,45,8
+    COMBOBOX        IDC_COMBO_SHADER_LIGHTTYPE,1,13,65,30,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "빛 좌표",IDC_STATIC,7,30,45,8
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTPOSX,16,41,46,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTPOSY,16,54,46,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTPOSZ,16,67,46,12,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "x :",IDC_STATIC,1,41,11,8
+    CTEXT           "y :",IDC_STATIC,1,54,11,8
+    CTEXT           "z :",IDC_STATIC,1,67,11,8
+    CTEXT           "빛 Diffuse",IDC_STATIC,1,320,45,8
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTDIFFUSER,18,331,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTDIFFUSEG,18,344,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTDIFFUSEB,18,356,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "r :",IDC_STATIC,4,331,11,8
+    CTEXT           "g :",IDC_STATIC,4,344,11,8
+    CTEXT           "b :",IDC_STATIC,4,356,11,8
+    CTEXT           "빛 Ambient",IDC_STATIC,1,369,45,8
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTAMBIENTR,19,379,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTAMBIENTG,19,392,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTAMBIENTB,19,405,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "r :",IDC_STATIC,5,380,11,8
+    CTEXT           "g :",IDC_STATIC,5,393,11,8
+    CTEXT           "b :",IDC_STATIC,5,406,11,8
+    CTEXT           "빛 Specular",IDC_STATIC,113,370,45,8
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTSPECULARR,132,380,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTSPECULARG,132,393,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTSPECULARB,132,406,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "r :",IDC_STATIC,118,381,11,8
+    CTEXT           "g :",IDC_STATIC,118,394,11,8
+    CTEXT           "b :",IDC_STATIC,118,407,11,8
+    LTEXT           "빛 범위",IDC_STATIC,1,194,23,8
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTRANGE,30,193,25,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Spot Angle",IDC_STATIC,77,53,35,8
+    LTEXT           "Min :",IDC_STATIC,77,64,17,8
+    EDITTEXT        IDC_EDIT_SHADER_SPOTLIGHT_MINANGLE,95,63,25,12,ES_AUTOHSCROLL
+    LTEXT           "Max :",IDC_STATIC,77,77,17,8
+    EDITTEXT        IDC_EDIT_SHADER_SPOTLIGHT_MAXANGLE,95,76,25,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_SPOTLIGHT_MINANGLE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,123,63,92,12
+    CONTROL         "",IDC_SLIDER_SPOTLIGHT_MAXANGLE,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,123,76,92,12
+    LTEXT           "빛 방향",IDC_STATIC,85,1,20,8
+    CONTROL         "",IDC_SLIDER_LIGHTDIRX,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,111,11,92,12
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTDIRX,77,11,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTDIRY,77,24,31,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTDIRZ,77,37,31,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLIDER_LIGHTDIRY,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,111,24,92,12
+    CONTROL         "",IDC_SLIDER_LIGHTDIRZ,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,111,37,92,12
+    CONTROL         "None    Ctrl + E",IDC_RADIO_LIGHTMODE1,"Button",BS_AUTORADIOBUTTON | WS_DISABLED | WS_GROUP,45,310,65,10
+    CONTROL         "빛 생성    Ctrl + R",IDC_RADIO_LIGHTMODE2,"Button",BS_AUTORADIOBUTTON | WS_DISABLED,45,321,68,10
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | WS_BORDER | WS_HSCROLL | WS_TABSTOP,232,76,80,357
+    PUSHBUTTON      "라이트그룹 생성 : Ctrl + Q",IDC_BUTTON_MAKELIGHTGROUP,224,42,87,13
+    EDITTEXT        IDC_EDIT_LIGHTGROUPNAME,239,26,73,14,ES_AUTOHSCROLL
+    LTEXT           "이름 입력  :",IDC_STATIC,205,29,32,8
+    LTEXT           "이름 입력 안하면 Default 이름으로 나오게 됩니다",IDC_STATIC,210,2,95,18
+    PUSHBUTTON      "빛 생성은 마우스 왼쪽키",IDC_BUTTON_ADDLIGHT,1,81,39,29,BS_MULTILINE
+    CONTROL         "피킹Y == 실제Y로     F1 + F3",IDC_CHECK_PICKINGYPOSTYPE,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,86,92,104,10
+    CONTROL         "라이트 디버그  숫자 1   None 모드 시 자동 ON",IDC_CHECK_SHOWLIGHTDEBUG,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,86,103,140,10
+    CONTROL         "라이트 피킹    None 모드 시 자동 ON",IDC_CHECK_LIGHTPICKING,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,86,114,120,10
+    EDITTEXT        IDC_EDIT_YPOSPLUS,137,160,27,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Y상승량 :",IDC_STATIC,106,162,27,8
+    CONTROL         "카메라 가속    Q(키 때면 풀림)",IDC_CHECK_CAMRUNMODE,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,86,125,96,10
+    PUSHBUTTON      "빛 타입 변경 : `(~)(1번 왼쪽 키)",IDC_BUTTON2,1,148,101,14
+    PUSHBUTTON      "순간이동 : Ctrl + 마우스 왼쪽 클릭",IDC_BUTTON7,102,148,112,11
+    PUSHBUTTON      "Y 좌표 변경 : 마우스 휠 위아래로   ( 피킹 Y값 무시됨 )",IDC_BUTTON8,1,163,101,27,BS_MULTILINE
+    PUSHBUTTON      "Y상숭량 증가 : Ctrl + Z   감소 : 그냥 Z",IDC_BUTTON9,103,176,120,14
+    PUSHBUTTON      "빛 삭제 : Delete",IDC_BUTTON11,1,137,101,11
+    PUSHBUTTON      "빛 삭제는 Delete 키",IDC_BUTTON_ADDLIGHT2,40,81,36,29,BS_MULTILINE
+    PUSHBUTTON      "NumberPad로 입력하면 되요",IDC_BUTTON10,59,193,120,12
+    PUSHBUTTON      "BackSpace : 모두지우기",IDC_BUTTON13,59,206,90,12
+    PUSHBUTTON      "Ctrl + D : 저장",IDC_BUTTON12,1,258,50,14
+    PUSHBUTTON      "Ctrl + F : 로드",IDC_BUTTON14,55,258,50,14
+    PUSHBUTTON      "카메라 이동 : W S A D",IDC_BUTTON15,0,221,80,14
+    PUSHBUTTON      "카메라 회전 : 마우스 우클릭 후 마우스 움직임",IDC_BUTTON16,0,237,144,14
+    PUSHBUTTON      "라이트 그룹 이동 : 위 : [ 아래 :]",IDC_BUTTON18,113,253,113,23,BS_MULTILINE
+    CONTROL         "Light On/Off    숫자 2",IDC_CHECK_LIGHTONOFF,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,3,114,78,10
+    CONTROL         "라이트 그룹 On/Off     단축키 : P",IDC_CHECK_LIGHTGROUPONOFF,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,107,222,118,10
+    PUSHBUTTON      "빛 그룹 삭제 : Ctrl + Delete",IDC_BUTTON17,102,137,112,11
+    PUSHBUTTON      "Diffuse Color Dialog",IDC_BUTTON_SHOW_COLORDIALOG,43,334,68,32
+    PUSHBUTTON      "Ambient Color Dialog",IDC_BUTTON_SHOW_AMBIENTCOLORDIALOG2,45,379,68,32
+    PUSHBUTTON      "Specular Color Dialog",IDC_BUTTON_SHOW_SPECULARCOLORDIALOG3,157,380,68,32
+    RTEXT           "Diffuse Power :",IDC_STATIC,12,280,56,8
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTSPECULARA,70,295,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_LIGHTSPECULARA,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,94,295,120,12
+    CTEXT           "Ambient Power :",IDC_STATIC,2,421,65,10
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTAMBIENTA,72,420,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_LIGHTAMBIENTA,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,97,420,121,12
+    RTEXT           "Specular Power :",IDC_STATIC,12,296,56,8
+    EDITTEXT        IDC_EDIT_SHADER_LIGHTDIFFUSEA,70,279,21,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "",IDC_SLIDER_LIGHTDIFFUSEA,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,94,279,120,12
+    CONTROL         "Diffuse Specular Same Power",IDC_CHECK_DIFFUSESPECULARSAMEPOWER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,318,111,10
+    PUSHBUTTON      "Tree Control 안의 라이트를 더블 클릭하면 라이트가 있는 곳으로 카메라가 이동해요",IDC_BUTTON19,126,331,101,34,BS_MULTILINE
+    CONTROL         "Floating Power",IDC_CHECK_FLOATINGPOWER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,306,111,10
+    PUSHBUTTON      "Map",IDC_MAP_RENDER_REFRESH,186,92,18,10
+    COMBOBOX        IDC_COMBO_MAPKIND,152,207,48,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Create",IDC_BUTTON_CREATE_MAP,202,207,27,12
+END
+
+IDD_TOOL_INTERACTION DIALOGEX 0, 0, 332, 460
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Interaction Tool"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO_PLAYERTYPE,56,1,58,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Player Type :",IDC_STATIC,1,1,53,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_MONSTERTYPE,56,17,58,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "Monster Type :",IDC_STATIC,1,16,53,12,SS_CENTERIMAGE
+    PUSHBUTTON      "Create",IDC_BUTTON_CREATEPLAYER,118,0,50,14
+    PUSHBUTTON      "Create",IDC_BUTTON_CREATEMONSTER,118,16,50,14
+    RTEXT           "Ani Index : ",IDC_STATIC,5,85,37,9
+    EDITTEXT        IDC_EDIT_PL_ANI_INDEX,47,83,34,14,ES_AUTOHSCROLL
+    RTEXT           "Period :",IDC_STATIC_PERIOD,5,54,37,8
+    RTEXT           "Position :",IDC_STATIC_POSITION,5,71,37,8
+    EDITTEXT        IDC_EDIT_PL_ANI_PERIOD,47,51,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_PL_ANI_POSITION,47,67,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Ani Speed :",IDC_STATIC_POSITION2,5,118,37,8
+    EDITTEXT        IDC_EDIT_PL_ANI_SPEED,47,115,34,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_OPTION,4,246,41,75,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_DETAILDATA,50,276,41,44,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Option List",IDC_STATIC,3,232,40,8
+    LTEXT           "Detail Data List",IDC_STATIC,47,262,55,8
+    RTEXT           "Ani Pos :",IDC_STATIC,3,184,42,8
+    RTEXT           "Option :",IDC_STATIC,3,200,42,8
+    PUSHBUTTON      "Add",IDC_EDIT_PL_ADD_EVENT_ANIPOS,92,182,32,14
+    EDITTEXT        IDC_EDIT_PL_EVENT_ANIPOS,48,182,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Change",IDC_BUTTON_PL_CHANGE_ANISPEED,86,115,29,14
+    EDITTEXT        IDC_EDIT_PL_ANI_CURSPEED,76,132,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Current Ani Speed :",IDC_STATIC_POSITION3,5,134,65,8
+    PUSHBUTTON      "Change",IDC_BUTTON_PL_CHANGE_ANIINDEX,85,82,29,14
+    EDITTEXT        IDC_EDIT_PL_ANI_CURINDEX,78,99,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Current Ani Index :",IDC_STATIC_POSITION4,5,101,65,8
+    EDITTEXT        IDC_EDIT_PL_EVENT_OPTION,48,198,40,14,ES_AUTOHSCROLL
+    RTEXT           "Detail Data :",IDC_STATIC,3,216,42,8
+    EDITTEXT        IDC_EDIT_PL_EVENT_DETAILDATA,48,214,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_EDIT_PL_ADD_EVENT_DETAILDATA,92,214,32,14
+    PUSHBUTTON      "Modify",IDC_EDIT_PL_MODIFY_EVENT_OPTION,92,198,32,14
+    CTEXT           "Option",IDC_STATIC,54,232,35,8
+    EDITTEXT        IDC_EDIT_PL_EVENT_CUROPTION,52,245,40,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "SIGNAL - Player ===> Monster",IDC_STATIC,1,168,134,163
+    GROUPBOX        "Player Ani Data",IDC_STATIC,1,38,125,117
+    RTEXT           "Ani Index : ",IDC_STATIC,134,86,37,9
+    EDITTEXT        IDC_EDIT_MON_ANI_INDEX,176,84,34,14,ES_AUTOHSCROLL
+    RTEXT           "Period :",IDC_STATIC_PERIOD2,134,55,37,8
+    RTEXT           "Position :",IDC_STATIC_POSITION5,134,72,37,8
+    EDITTEXT        IDC_EDIT_MON_ANI_PERIOD,176,52,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MON_ANI_POS,176,68,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Ani Speed :",IDC_STATIC_POSITION6,134,119,37,8
+    EDITTEXT        IDC_EDIT_MON_ANI_SPEED,176,116,34,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Change",IDC_BUTTON_MON_CHANGE_ANISPEED,215,116,29,14
+    EDITTEXT        IDC_EDIT_MON_ANI_CURSPEED,205,133,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Current Ani Speed :",IDC_STATIC_POSITION7,134,135,65,8
+    PUSHBUTTON      "Change",IDC_BUTTON_MON_CHANGE_ANIINDEX,214,83,29,14
+    EDITTEXT        IDC_EDIT_MON_ANI_CURINDEX,207,100,34,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "Current Ani Index :",IDC_STATIC_POSITION8,134,102,65,8
+    GROUPBOX        "Monster Ani Data",IDC_STATIC,130,39,121,117
+    RTEXT           "몬스터 애니 시작 시간 :",IDC_STATIC,147,361,66,8
+    EDITTEXT        IDC_EDIT_MON_START_ANITIME,216,359,29,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Modify",IDC_BUTTON_MODIFY_MON_START_ANITIME,278,358,27,14
+    RTEXT           "두 캐릭터 사이의 각도 :",IDC_STATIC,147,377,66,8
+    EDITTEXT        IDC_EDIT_BETWEENANGLE_PL_TO_MON,216,375,29,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Modify",IDC_BUTTON_MODIFY_BETWEENANGLE_PL_TO_MON,278,373,27,14
+    PUSHBUTTON      "Reset",IDC_BUTTON_RESET_MON_START_ANITIME,307,358,23,14
+    RTEXT           "각도를 변경할 대상 :",IDC_STATIC,147,410,66,8
+    CONTROL         "Player",IDC_CHECK_PL_CHANGE_ANGLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,223,409,34,10
+    CONTROL         "Monster",IDC_CHECK_MON_CHANGE_ANGLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,265,409,41,10
+    RTEXT           "포지션을 변경할 대상 :",IDC_STATIC,147,423,66,8
+    CONTROL         "Player",IDC_CHECK_PL_CHANGE_POS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,223,422,34,10
+    CONTROL         "Monster",IDC_CHECK_MON_CHANGE_POS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,265,422,41,10
+    RTEXT           "두 캐릭터 사이의 거리 :",IDC_STATIC,147,393,66,8
+    EDITTEXT        IDC_EDIT_BETWEENDIST_PL_TO_MON,216,390,29,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Modify",IDC_BUTTON_MODIFY_BETWEENDIST_PL_TO_MON,278,389,27,14
+    PUSHBUTTON      "Ani Start",IDC_BUTTON_START_ANIMATION,170,0,41,30
+    PUSHBUTTON      "Ani Stop",IDC_BUTTON_STOP_ANIMATION,215,0,41,30
+    PUSHBUTTON      "Interaction Start",IDC_BUTTON_START_INTERACTION,260,0,71,30
+    EDITTEXT        IDC_EDIT_MON_START_ANITIME2,247,359,29,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_BETWEENANGLE_PL_TO_MON2,247,375,29,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_BETWEENDIST_PL_TO_MON2,247,390,29,14,ES_AUTOHSCROLL | WS_DISABLED
+    CTEXT           "Player Pos",IDC_STATIC_PERIOD3,1,341,38,8
+    RTEXT           "Player AngleY :",IDC_STATIC_POSITION9,1,409,51,8
+    EDITTEXT        IDC_EDIT_PL_POSX,16,354,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PL_POSX2,41,354,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Change",IDC_BUTTON_PL_CHANGE_POS,42,338,27,14
+    EDITTEXT        IDC_EDIT_PL_ANGLEY,53,406,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PL_ANGLEY2,78,406,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Change",IDC_BUTTON_PL_CHANGE_ANGLE,102,406,27,14
+    RTEXT           "Monster AngleY :",IDC_STATIC_POSITION10,1,425,51,8
+    EDITTEXT        IDC_EDIT_MON_ANGLEY,53,422,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MON_ANGLEY2,78,422,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Change",IDC_BUTTON_MON_CHANGE_ANGLE,102,422,27,14
+    GROUPBOX        "Interaction Data",IDC_STATIC,146,342,185,117
+    EDITTEXT        IDC_EDIT_PL_POSZ,16,387,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PL_POSZ2,41,387,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_PL_POSY,16,370,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PL_POSY2,41,370,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "X : ",IDC_STATIC,4,357,12,8
+    RTEXT           "Y : ",IDC_STATIC,4,372,12,8
+    RTEXT           "Z : ",IDC_STATIC,4,389,12,8
+    CTEXT           "Monster Pos",IDC_STATIC_PERIOD4,72,341,41,8
+    EDITTEXT        IDC_EDIT_MON_POSX,89,354,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MON_POSX2,114,354,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Change",IDC_BUTTON_MON_CHANGE_POS,115,338,27,14
+    EDITTEXT        IDC_EDIT_MON_POSZ,89,387,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MON_POSZ2,114,387,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_MON_POSY,89,370,24,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MON_POSY2,114,370,24,14,ES_AUTOHSCROLL | WS_DISABLED
+    RTEXT           "X : ",IDC_STATIC,77,357,12,8
+    RTEXT           "Y : ",IDC_STATIC,77,372,12,8
+    RTEXT           "Z : ",IDC_STATIC,77,389,12,8
+    LISTBOX         IDC_LIST_INTERACTION,292,50,39,86,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Inetaction List",IDC_STATIC,283,36,48,8
+    PUSHBUTTON      "Save",IDC_BUTTON_SAVE_INTERACTION,256,83,33,16
+    PUSHBUTTON      "Load",IDC_BUTTON_LOAD_INTERACTION,256,99,33,16
+    PUSHBUTTON      "Add",IDC_BUTTON_ADD_INTERACTION,256,51,33,16
+    PUSHBUTTON      "Option Delete",IDC_BUTTON2,98,233,30,27,BS_MULTILINE
+    PUSHBUTTON      "Detail Data Delete",IDC_BUTTON29,93,294,39,27,BS_MULTILINE
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE_INTERACTION,256,67,33,16
+    PUSHBUTTON      "Select Cancel",IDC_BUTTON_SELECTCANCEL_INTERACTION,256,115,33,29,BS_MULTILINE
+    PUSHBUTTON      "Player Camera On/Off",IDC_BUTTON_PLAYER_CAMERA_ONOFF,186,162,114,20,BS_MULTILINE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "ShaderTool_KMH"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ShaderTool_KMH.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "ShaderTool_KMH.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_EDITBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_TOOL_SHADER, DIALOG
+    BEGIN
+    END
+
+    IDD_TOOL_LIGHT, DIALOG
+    BEGIN
+    END
+
+    IDD_TOOL_INTERACTION, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_TOOL_SHADER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_TOOL_LIGHT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_TOOL_INTERACTION AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "ShaderTool_KMH\n\nShaderTool_KMH\n\n\nShaderToolKMH.Document\nShaderTool_KMH.Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "ShaderTool_KMH"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "새 문서를 만듭니다.\n새로 만들기"
+    ID_FILE_OPEN            "기존 문서를 엽니다.\n열기"
+    ID_FILE_CLOSE           "활성 문서를 닫습니다.\n닫기"
+    ID_FILE_SAVE            "활성 문서를 저장합니다.\n저장"
+    ID_FILE_SAVE_AS         "활성 문서를 새 이름으로 저장합니다.\n다른 이름으로 저장"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보, 버전 번호 및 저작권을 표시합니다.\n정보"
+    ID_APP_EXIT             "문서를 저장할지를 묻고 응용 프로그램을 끝냅니다.\n끝내기"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE2       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE3       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE4       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE5       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE6       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE7       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE8       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE9       "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE10      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE11      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE12      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE13      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE14      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE15      "현재 문서를 엽니다."
+    ID_FILE_MRU_FILE16      "현재 문서를 엽니다."
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다.\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다.\n이전 창"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "활성 창을 여러 개의 창으로 분할합니다.\n분할"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "선택 영역을 지웁니다.\n지우기"
+    ID_EDIT_CLEAR_ALL       "모두 지웁니다.\n모두 지우기"
+    ID_EDIT_COPY            "선택 영역을 복사하여 클립보드에 넣습니다.\n복사"
+    ID_EDIT_CUT             "선택 영역을 잘라내어 클립보드에 넣습니다.\n잘라내기"
+    ID_EDIT_FIND            "지정한 텍스트를 찾습니다.\n찾기"
+    ID_EDIT_PASTE           "클립보드 내용을 삽입합니다.\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막 작업을 반복합니다.\n반복"
+    ID_EDIT_REPLACE         "특정 텍스트를 다른 텍스트로 바꿉니다.\n바꾸기"
+    ID_EDIT_SELECT_ALL      "전체 문서를 선택합니다.\n모두 선택"
+    ID_EDIT_UNDO            "마지막 작업 실행을 취소합니다.\n실행 취소"
+    ID_EDIT_REDO            "이전에 실행 취소된 작업을 다시 실행합니다.\n다시 실행"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 표시하거나 숨깁니다.\n도구 모음 설정/해제"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 숨깁니다.\n상태 표시줄 설정/해제"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "창 크기를 변경합니다."
+    AFX_IDS_SCMOVE          "창 위치를 변경합니다."
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 축소합니다."
+    AFX_IDS_SCMAXIMIZE      "창을 전체 화면 크기로 확대합니다."
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다."
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다."
+    AFX_IDS_SCCLOSE         "문서를 저장할 것인지 확인하고 활성 창을 닫습니다."
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 보통 크기로 복원합니다."
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다."
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#include "res\ShaderTool_KMH.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "l.KOR\afxres.rc"      // 표준 구성 요소
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

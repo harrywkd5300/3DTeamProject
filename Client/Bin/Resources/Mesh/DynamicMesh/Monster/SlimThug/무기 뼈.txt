@@ -1,0 +1,6 @@
+SaberStaff_Root
+
+
+
+m_pTransformCom->Rotation_Z(90.f, 1.f);
+	m_pTransformCom->Rotation_X(90.f, 1.f);

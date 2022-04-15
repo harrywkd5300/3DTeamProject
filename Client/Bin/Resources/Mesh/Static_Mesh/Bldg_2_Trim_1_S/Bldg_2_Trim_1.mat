@@ -1,0 +1,6 @@
+Diffuse=Bldg_2_Trim_1_Diff
+Normal=Bldg_2_Trim_1_Norm
+Specular=Bldg_2_Trim_1_Spec
+Cube=T_AM_cubeMap_1_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

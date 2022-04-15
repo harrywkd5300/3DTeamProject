@@ -1,0 +1,6 @@
+Diffuse=Bldg_Tile_E_Diff
+Normal=Bldg_Tile_E_Norm
+Specular=Bldg_Tile_E_Spec
+Cube=Roof_Night_Clear_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

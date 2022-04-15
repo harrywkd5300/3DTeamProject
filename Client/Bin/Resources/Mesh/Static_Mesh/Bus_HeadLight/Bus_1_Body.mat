@@ -1,0 +1,6 @@
+Diffuse=Bus_1_Body_Diff
+Normal=Car_Body_Grey_Norm
+Specular=Bus_1_Body_Spec
+Cube=Alley_Night_Rain_Cube_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

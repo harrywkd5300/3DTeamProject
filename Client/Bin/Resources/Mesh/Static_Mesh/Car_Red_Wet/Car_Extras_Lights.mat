@@ -1,0 +1,6 @@
+Diffuse=Car_Extras_Diff
+Normal=Car_Body_Grey_Norm
+Specular=Car_Extras_Spec
+Cube=Alley_DayClear_Cube_Tex_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

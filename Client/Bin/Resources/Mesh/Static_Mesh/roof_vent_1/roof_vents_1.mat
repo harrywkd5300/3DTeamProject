@@ -1,0 +1,5 @@
+Diffuse=roof_vents_1_diff
+Normal=roof_vents_1_norm
+Specular=roof_vents_1_spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

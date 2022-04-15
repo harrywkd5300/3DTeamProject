@@ -1,0 +1,6 @@
+Diffuse=Roof_Floor_3_Diff
+Normal=Roof_Floor_3_Norm
+Specular=Roof_Floor_3_Spec
+Cube=Roof_Night_Clear_Tex
+Other[0]=M_ES_Phong_Opaque_INST_01_Flattened1
+Other[1]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened

@@ -1,0 +1,22 @@
+SaberStaff_Root
+
+
+
+기본무기
+
+m_pTransformCom->Rotation_Z(90.f, 1.f);
+	m_pTransformCom->Rotation_X(90.f, 1.f);
+
+
+
+
+나이프 잡을때
+
+
+m_pTransformCom->Rotation_Z(90.f, 1.f);
+	m_pTransformCom->Rotation_X(90.f, 1.f);
+
+	_vec3 vPos = *m_pTransformCom->Get_Infomation(CTransform::INFO_POSITION);
+	vPos.x -= 8.f;
+	vPos.y += 2.f;
+	m_pTransformCom->Set_Infomation(CTransform::INFO_POSITION, &vPos);

@@ -1,0 +1,6 @@
+Diffuse=Sign_Hotel_1_Diff
+Normal=Sign_Hotel_1_Norm
+Specular=Sign_Hotel_1_Spec
+Cube=T_AM_cubeMap_1_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

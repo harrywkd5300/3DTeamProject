@@ -1,0 +1,28 @@
+SaberStaff_Root
+
+
+
+m_pTransformCom->Rotation_Z(90.f, 1.f);
+	m_pTransformCom->Rotation_X(90.f, 1.f);
+
+	_vec3 vPos = *m_pTransformCom->Get_Infomation(CTransform::INFO_POSITION);
+	vPos.x -= 18.f;
+	m_pTransformCom->Set_Infomation(CTransform::INFO_POSITION, &vPos);
+
+
+
+
+¸¶½ºÅ©
+
+
+head
+
+
+
+
+m_pTransformCom->Rotation_Z(-90.f, 1.f);
+
+	_vec3 vPos = *m_pTransformCom->Get_Infomation(CTransform::INFO_POSITION);
+	vPos.x += 8.f;
+	vPos.z -= 10.f;
+	m_pTransformCom->Set_Infomation(CTransform::INFO_POSITION, &vPos);

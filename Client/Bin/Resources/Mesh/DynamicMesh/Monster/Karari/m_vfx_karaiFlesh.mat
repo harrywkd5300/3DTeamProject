@@ -1,0 +1,5 @@
+Diffuse=karai_head_d
+Normal=karai_head_n
+Specular=karai_head_s
+SpecPower=t_vfx_specLookup
+Other[0]=karai_head_n2

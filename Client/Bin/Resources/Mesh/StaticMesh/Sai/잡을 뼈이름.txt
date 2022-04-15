@@ -1,0 +1,12 @@
+R_Sword1
+L_Sword1
+
+
+Ä® Áý¾î³Ö´Â »À°¡ ¾øÀ½;
+
+
+
+
+_vec3 vPos = *m_pTransformCom->Get_Infomation(CTransform::INFO_POSITION);
+	vPos.z -= 10.f;
+	m_pTransformCom->Set_Infomation(CTransform::INFO_POSITION, &vPos);

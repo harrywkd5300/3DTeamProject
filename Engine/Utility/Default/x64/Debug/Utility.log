@@ -1,0 +1,127 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_Debug.cso
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Deferred.hpp(152,14): warning X3207: Initializer used on a global 'const' variable. This requires setting an external constant. If a literal is desired, use 'static const' instead.
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_Deferred.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_Distort.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_Filter.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_HDR.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_Light.cso
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\PostProcess.hpp(1,9-12): warning X3568: 'once' : unknown pragma ignored
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Shader_PostProcess.fx(139,9-39): warning X3206: implicit truncation of vector type
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Shader_PostProcess.fx(146,10-64): warning X3206: implicit truncation of vector type
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Shader_PostProcess.fx(256,3-21): warning X3206: implicit truncation of vector type
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Shader_PostProcess.fx(146,26-64): warning X3570: gradient instruction used in a loop with varying iteration, attempting to unroll the loop
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_PostProcess.cso
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Shader_Shadow.fx(50,8-85): warning X3206: implicit truncation of vector type
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Shader_Shadow.fx(51,8-85): warning X3206: implicit truncation of vector type
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_Shadow.cso
+D:\PersonProject\Team\Engine\Utility\Bin\ShaderFiles\Shader_SSDecal.fx(70,21-58): warning X3206: 'Compute_PosVS': implicit truncation of vector type
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Engine\Utility\Bin\Shader_SSDecal.cso
+  GOAP_Action.cpp
+  GOAP_AI_Manager.cpp
+  GOAP_Node.cpp
+  GOAP_WorldState.cpp
+  Animation_Ctrl.cpp
+  Camera.cpp
+  CameraLayer.cpp
+  Camera_Manager.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Camera_Manager.cpp(354,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Cell.cpp
+  Character.cpp
+  Collider.cpp
+  Collider_Manager.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Collider_Manager.cpp(73,96): warning C4267: '인수': 'size_t'에서 'const Engine::_ulong'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Component.cpp
+  Component_Manager.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Component_Manager.cpp(282,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+D:\PersonProject\Team\Engine\Utility\Codes\Component_Manager.cpp(302,21): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  Controller.cpp
+  Cube_Texture.cpp
+  Debug_Manager.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Debug_Manager.cpp(307,34): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PersonProject\Team\Engine\Utility\Codes\Debug_Manager.cpp(392,34): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PersonProject\Team\Engine\Utility\Codes\Debug_Manager.cpp(482,2): warning C4996: 'vswprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  Decal_Manager.cpp
+  EffectOBJ.cpp
+D:\PersonProject\Team\Engine\Utility\codes\EffectOBJ.cpp(243,37): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Effect_Manager.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Effect_Manager.cpp(318,46): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Equipment.cpp
+  Frustum.cpp
+  GameObject.cpp
+  GlareDefD3D.cpp
+  Hierarchy_Loader.cpp
+  Layer.cpp
+  Light.cpp
+  Light_Manager.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Light_Manager.cpp(239,44): warning C4267: '+=': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Management.cpp
+  Material.cpp
+  Mesh.cpp
+  Mesh_Dynamic.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Mesh_Dynamic.cpp(558,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Mesh_Static.cpp
+  Mouse.cpp
+  MultiTexture.cpp
+  MyEffect.cpp
+  MyEffect_Buff.cpp
+  MyEffect_Particle.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\MyEffect_Particle.cpp(348,27): warning C4244: '=': 'float'에서 'Engine::_ulong'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyFX.cpp
+  Navigation.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Navigation.cpp(228,13): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PersonProject\Team\Engine\Utility\Codes\Navigation.cpp(292,12): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PersonProject\Team\Engine\Utility\Codes\Navigation.cpp(356,12): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\PersonProject\Team\Engine\Utility\Codes\Navigation.cpp(452,12): warning C4267: 'return': 'size_t'에서 'const Engine::_int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+D:\PersonProject\Team\Engine\Utility\Codes\Navigation.cpp(452): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+D:\PersonProject\Team\Engine\Utility\Codes\Navigation.cpp(455): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  컴파일하고 있습니다...
+  Object_Manager.cpp
+D:\PersonProject\Team\Engine\Utility\Codes\Object_Manager.cpp(343,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Observer.cpp
+  Picking.cpp
+  QuadTree.cpp
+  Random.cpp
+  RectUI_Texture.cpp
+  Rect_Color.cpp
+  Rect_Texture.cpp
+  Renderer.cpp
+  Resources.cpp
+  Scene.cpp
+  Shader.cpp
+  SSDecal.cpp
+  String_Manager.cpp
+  Subject_Manager.cpp
+  Target.cpp
+  Target_Manager.cpp
+  Terrain_Buffer.cpp
+  Texture.cpp
+  Transform.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Triangle_Color.cpp
+  Trigger.cpp
+  VIBuffer.cpp
+  코드를 생성하고 있습니다...
+     ..\Bin\Utility.lib 라이브러리 및 ..\Bin\Utility.exp 개체를 생성하고 있습니다.
+  Utility.vcxproj -> D:\PersonProject\Team\Engine\Utility\Bin\Utility.dll

@@ -1,0 +1,7 @@
+Diffuse=Car_Extras_Diff
+Normal=Car_Body_Grey_Norm
+Specular=Car_Extras_Spec
+SpecPower=New_Car_1_Spec
+Cube=Roof_Night_Clear_Tex_noStar
+Other[0]=New_Car_1_Norm
+Other[1]=New_Car_1_Diff

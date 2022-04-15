@@ -1,0 +1,5 @@
+Diffuse=FireEscape_1_Diff
+Normal=FireEscape_1_Norm
+Specular=FireEscape_1_Spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

@@ -1,0 +1,5 @@
+Diffuse=Bldg_Trim_C_Diff
+Normal=Bldg_Trim_C_Norm
+Specular=Bldg_Trim_C_Spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

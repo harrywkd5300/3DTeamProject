@@ -1,0 +1,9 @@
+Diffuse=Sewer_Tunnel_Walk_1_Diff
+Normal=Sewer_Tunnel_Walk_1_Norm
+Specular=Sewer_Tunnel_Walk_1_Spec
+Cube=Sewer_Tunnel_1_Tex
+Other[0]=Sewer_Tunnel_Walk_2_Diff
+Other[1]=Sewer_Tunnel_Walk_2_Norm
+Other[2]=Sewer_Tunnel_Walk_2_Spec
+Other[3]=M_ES_Phong_Opaque_INST_01_Flattened1
+Other[4]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened

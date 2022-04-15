@@ -1,0 +1,6 @@
+Diffuse=Bldg_Door_1_Diff
+Normal=Bldg_Door_1_Norm
+Specular=Bldg_Door_1_Diff
+Cube=Alley_Night_Rain_Cube_Tex
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

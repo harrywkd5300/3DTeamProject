@@ -1,0 +1,5 @@
+Diffuse=Concrete_baseTile_Diff
+Normal=Concrete_baseTile_NRM
+Specular=Concrete_baseTile_Spec
+Other[0]=T_NormalM_ES_Phong_Opaque_INST_01_Flattened
+Other[1]=M_ES_Phong_Opaque_INST_01_Flattened1

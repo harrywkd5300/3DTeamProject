@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\PersonProject\Team\Engine\System\Bin\System.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Utility.dll</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_Debug.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_Deferred.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_Distort.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_Filter.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_HDR.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_Light.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_PostProcess.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_Shadow.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\PersonProject\Team\Engine\Utility\Bin\Shader_SSDecal.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

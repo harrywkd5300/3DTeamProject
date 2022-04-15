@@ -1,0 +1,7 @@
+Diffuse=Sub_train_parts_diff
+Normal=Sub_train_parts_norm
+Specular=Sub_train_parts_spec
+Other[0]=Big_Thug_N
+Other[1]=t_refMap_generic_01
+Other[2]=Big_Thug_Purple_D
+Other[3]=Big_Thug_S

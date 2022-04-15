@@ -1,0 +1,105 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Client\Bin\Shader_Default.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Client\Bin\Shader_Effect.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Client\Bin\Shader_Font.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Client\Bin\Shader_Mesh.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Client\Bin\Shader_SkyBox.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Client\Bin\Shader_UI.cso
+D:\PersonProject\Team\Client\Bin\TerrainShader\Shader_Terrain.fx(378,3-50): warning X3206: implicit truncation of vector type
+D:\PersonProject\Team\Client\Bin\TerrainShader\Shader_Terrain.fx(385,3-50): warning X3206: implicit truncation of vector type
+D:\PersonProject\Team\Client\Bin\TerrainShader\Shader_Terrain.fx(412,19-103): warning X3206: 'Compute_NormalMapping': implicit truncation of vector type
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\PersonProject\Team\Client\Bin\Shader_Terrain.cso
+  stdafx.cpp
+  AbilityUI.cpp
+  AIController.cpp
+  Back_Logo.cpp
+  BaseObject.cpp
+  BigThug.cpp
+D:\PersonProject\Team\Client\Codes\BigThug.cpp(801,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Bomb.cpp
+  Bomb_Mask.cpp
+  CameraObserver.cpp
+  Camera_CCTV.cpp
+  Camera_Dynamic.cpp
+  Camera_Player.cpp
+D:\PersonProject\Team\Client\Codes\Camera_Player.cpp(409,20): warning C4244: '초기화 중': 'double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CharacterGroup.cpp
+D:\PersonProject\Team\Client\Codes\CharacterGroup.cpp(316,10): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CharacterGroupLayer.cpp
+  Chucks.cpp
+  ComboUI.cpp
+  EffectOBJ_CL.cpp
+  Effect_Buffer.cpp
+  Effect_Distort.cpp
+  Effect_Mesh.cpp
+  Effect_Sprite.cpp
+  컴파일하고 있습니다...
+  ExpUI.cpp
+  FadeUI.cpp
+  Group_Manager.cpp
+D:\PersonProject\Team\Client\Codes\Group_Manager.cpp(96,21): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+D:\PersonProject\Team\Client\Codes\Group_Manager.cpp(106,24): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  Karari.cpp
+D:\PersonProject\Team\Client\Codes\Karari.cpp(941,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Knife.cpp
+  KnifeThug.cpp
+D:\PersonProject\Team\Client\Codes\KnifeThug.cpp(826,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Inventory.cpp
+  Monster.cpp
+  Monster_Default_Weapon.cpp
+  Mous.cpp
+D:\PersonProject\Team\Client\Codes\Mous.cpp(767,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  MoveObject.cpp
+  MyFont.cpp
+  NameTagUI.cpp
+  NaviUI.cpp
+D:\PersonProject\Team\Client\Codes\NaviUI.cpp(219,19): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  OptionUI.cpp
+  PausedUI.cpp
+  ParkourUI.cpp
+  Particle.cpp
+D:\PersonProject\Team\Client\Codes\Particle.cpp(152,45): warning C4244: '=': 'float'에서 'Engine::_ulong'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayerChangeUI.cpp
+  PlayerController.cpp
+  컴파일하고 있습니다...
+  ProgressUI.cpp
+  Sai.cpp
+  Scene_Video.cpp
+  ScreenUI.cpp
+  SlimThug.cpp
+D:\PersonProject\Team\Client\Codes\SlimThug.cpp(1017,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Soldier.cpp
+D:\PersonProject\Team\Client\Codes\Soldier.cpp(883,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Soldier_Bomb.cpp
+D:\PersonProject\Team\Client\Codes\Soldier_Bomb.cpp(1004,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "stdafx.h"'을(를) 소스에 추가하시겠습니까?
+  Soldier_Sword.cpp
+  Staff.cpp
+  UIObserver.cpp
+  UI_Stats.cpp
+  Loading.cpp
+  MainApp.cpp
+D:\PersonProject\Team\Client\Codes\MainApp.cpp(179,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Player.cpp
+  Scene_Logo.cpp
+  Scene_Stage.cpp
+  Sky.cpp
+  Stone.cpp
+  Sword.cpp
+  Terrain.cpp
+  컴파일하고 있습니다...
+  Tree.cpp
+  UI.cpp
+  Client.cpp

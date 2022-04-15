@@ -1,0 +1,10 @@
+Diffuse=Mike_Diff
+Normal=t_env_waterNormal_01
+SpecPower=Leo_Spec
+Other[0]=Mike_AO
+Other[1]=Leo_Detail_Norm
+Other[2]=Don_Diff
+Other[3]=Don_AO
+Other[4]=t_noiseVariety
+Other[5]=t_gen_cloudy_n
+Other[6]=Leo_Diff
